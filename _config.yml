@@ -78,6 +78,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:git
-  repo: https://github.com/ClassName/ClassName.github.io
+  type: git
+  repo: "https://github.com/ClassName/ClassName.github.io"
   branch: master
