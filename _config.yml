@@ -31,16 +31,6 @@ article-img: /img/article_header/article_bg.jpg
 signature: false #show signature
 signature-img: img/signature/BeanTechSign-white.png 
 
-
-# SNS settings
-# RSS: false
-# weibo_username:     Demonbaneen
-# zhihu_username:     Demonbane
-github_username:    ClassName
-# twitter_username:   Demonbane_x
-# facebook_username:  xxx
-# linkedin_username:  xxx
-
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
@@ -62,17 +52,26 @@ ga_track_id: 'UA-XXXXXXXX-X'          # Format: UA-xxxxxx-xx
 ga_domain: yoursite
 
 
-# Sidebar settings
+# Sidebar settings,首页右侧的个人中心
 sidebar: true                       # whether or not using Sidebar.
-sidebar-about-description: "Stay hungry,Stay foolish"
-sidebar-avatar: /img/avatar/ironman.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "hei  hei  hei"
+sidebar-avatar: /img/avatar/avatar.jpg   # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
 # - featured-tags
 - short-about
-- recent-posts
+# - recent-posts
 # - friends-blog
 # - archive
 #- category
+
+# 头像下面个人网站链接
+# RSS: false
+# weibo_username:     Demonbaneen
+# zhihu_username:     Demonbane
+# github_username:    ClassName
+# twitter_username:   Demonbane_x
+# facebook_username:  xxx
+# linkedin_username:  xxx
 
 # widget behavior
 ## Archive
