@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 东哥
-subtitle: 个人博客
-author: 东哥
+title: EVE
+# subtitle: 个人博客
+author: EVE
 language:
 timezone:
 
@@ -21,8 +21,8 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: 胡伟煌 | Blog
-email: e-mail_address
+SEOTitle: EVE | Blog
+email: "544960916@qq.com"
 description: ""
 keyword: ""
 header-img: /img/header_img/home.jpg
@@ -36,7 +36,7 @@ signature-img: img/signature/BeanTechSign-white.png
 # RSS: false
 # weibo_username:     Demonbaneen
 # zhihu_username:     Demonbane
-github_username:    huweihuang
+github_username:    ClassName
 # twitter_username:   Demonbane_x
 # facebook_username:  xxx
 # linkedin_username:  xxx
@@ -54,7 +54,7 @@ anchorjs: true                          # if you want to customize anchor. check
 #duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
-# Analytics settings
+# 统计id
 #Baidu Analytics
 ba_track_id: xxx
 # Google Analytics
@@ -67,11 +67,11 @@ sidebar: true                       # whether or not using Sidebar.
 sidebar-about-description: "Stay hungry,Stay foolish"
 sidebar-avatar: /img/avatar/ironman.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
-- featured-tags
+# - featured-tags
 - short-about
 - recent-posts
-- friends-blog
-- archive
+# - friends-blog
+# - archive
 #- category
 
 # widget behavior
@@ -87,20 +87,20 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 ## Friends
-friends: [
-    {
-        title: "CSDN Blog 胡伟煌",
-        href: "http://blog.csdn.net/huwh_"
-    },
-    {
-        title: "DockOne 胡伟煌",
-        href: "http://dockone.io/people/胡伟煌"
-    },
-    {
-        title: "阿里云栖社区 胡伟煌",
-        href: "https://yq.aliyun.com/u/huweihuang"
-    }
-]
+# friends: [
+#     {
+#         title: "CSDN Blog 胡伟煌",
+#         href: "http://blog.csdn.net/huwh_"
+#     },
+#     {
+#         title: "DockOne 胡伟煌",
+#         href: "http://dockone.io/people/胡伟煌"
+#     },
+#     {
+#         title: "阿里云栖社区 胡伟煌",
+#         href: "https://yq.aliyun.com/u/huweihuang"
+#     }
+# ]
 
 
 #Custom Setting End
@@ -211,7 +211,7 @@ alipay: alipay_url
 
 # Share
 # Reference: https://github.com/overtrue/share.js
-share: true
+# share: true
 
 ## Themes: https://hexo.io/themes/
 theme: huweihuang
